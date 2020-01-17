@@ -25,7 +25,7 @@ module.exports = {
         coordinates: [longitude, latitude],
       }
   
-      const newDev = await DevModel.create({
+      newDev = await DevModel.create({
         github_username,
         name,
         avatar_url,
